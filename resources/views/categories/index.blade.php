@@ -12,7 +12,7 @@
                     <x-card>
                         <div class="flex flex-col">
                             <div class="flex items-center flex-row gap-2">
-                                <h3 class="text-2xl font-bold">
+                                <h3 class="fs-1 font-bold">
                                     <p style="text-transform: uppercase">
                                         {{ $category->name }}</p>
                                 </h3>
@@ -23,7 +23,7 @@
                                 <div>
                                     <i class="fa-solid fa-circle-info"></i> {{ $category->description }}
                                 </div>
-                                <div class="flex lg:flex-row-reverse">
+                                <div class="flex flex-row-reverse">
                                     <div class=" flex flex-row gap-2" style="font-size: 15px">
 
                                         <a href="/categories/{{ $category->id }}/edit"
